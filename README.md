@@ -1,5 +1,5 @@
-# Date :
-# Multiple server with infinite capacity - (M/M/c):(oo/FIFO)
+# DATE : 15/12/2023
+# EXP NO : 5 - Multiple server with infinite capacity - (M/M/c):(oo/FIFO)
 ## Aim :
 To find (a) average number of materials in the system (b) average number of materials in the conveyor (c) waiting time of each material in the system (d) waiting time of each material in the conveyor, if the arrival  of materials follow poisson process with the mean interval time 10 seconds, serivice time of two lathe machine follow exponential distribution with mean serice time 1 second and average service time of robot is 7seconds.
 
@@ -14,8 +14,15 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 ## Procedure :
 ![image](https://user-images.githubusercontent.com/103921593/203238265-176740b0-eae2-4772-90be-5449869ac9b0.png)
 ## Experiment:
+![image](https://github.com/INFANTINA1401/Muttiple-capacity-with-infinite-capacity/assets/147313821/3ac0e3f1-1669-4255-960e-590770151d20)
+![image](https://github.com/INFANTINA1401/Muttiple-capacity-with-infinite-capacity/assets/147313821/aa77ed18-6a60-4877-9d33-c3057369fcf9)
+
 ## Program
-`````
+```
+DEVELOPED BY : INFANTINA MARIA L
+
+REGISTER NUMBER : 212223100013
+
 import math
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -47,9 +54,10 @@ if (rho<1):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("--------------------------------------------------------------")
-`````
+```
 ## Output :
-![image](https://github.com/INFANTINA1401/Muttiple-capacity-with-infinite-capacity/assets/147313821/544292b3-04d8-4784-9b74-b6c463b1aa7c)
+![image](https://github.com/INFANTINA1401/Muttiple-capacity-with-infinite-capacity/assets/147313821/2e65902e-8d7d-48ba-9ec0-cd33d2cbad1f)
+
 ## Result :
 Thus the average number of materials in the system and conveyor, waiting time of each material in the system and conveyor is found successfully.
 
